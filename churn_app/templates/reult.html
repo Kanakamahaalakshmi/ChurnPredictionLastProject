@@ -1,0 +1,9 @@
+<html>
+<h2>Prediction Result</h2>
+{% if prediction == 1 %}
+    <p style="color: red;">The customer is likely to churn.</p>
+{% else %}
+    <p style="color: green;">The customer will stay.</p>
+{% endif %}
+<a href="{% url 'predict_churn' %}">Go Back</a>
+</html>
