@@ -1,12 +1,9 @@
 ﻿venv/
+Lib/
+Scripts/
 *.pyc
 __pycache__/
 *.sqlite3
+*.pkl
 environment/
 virtual/
-Create/
-a/
-if/
-haven't/
-you/
-Lib/site-packages/
