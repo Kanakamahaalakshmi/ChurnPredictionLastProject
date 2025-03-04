@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-$nf796zg4s078^qev1-b-3ec+!*r50$02t7o^m7_!*-cq&3jfe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['churnpredictionlastproject-production.up.railway.app', '127.0.0.1', 'localhost']
+
 
 
 # Application definition
